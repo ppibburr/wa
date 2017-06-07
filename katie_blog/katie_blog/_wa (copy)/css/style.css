@@ -1,0 +1,271 @@
+  code { white-space: pre; }
+
+  #editor {
+    flex-grow: 1;
+  }
+  
+  .flex-none {
+	flex-grow: 0;  
+  }
+  
+
+    
+  body {
+    background-color:darkslategrey;    
+  }
+
+  #menu {
+    margin:2px;
+  }
+  
+  .content{
+    background-color:whitesmoke;
+  }
+
+#menu {
+  min-height:4em;
+}
+
+      html, body {
+        margin:-1px;
+        padding:0;
+        min-height:100vh;
+        height:100%;
+        width:100%;
+      }
+      .button {
+        height:4em;
+        min-width:4em;
+      }
+      .screen {
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        flex-grow:1;
+      }
+   
+      .item {
+        float:left;
+        padding:5px;
+        width:100px;
+        height:100px;
+        align-items:center;        
+      }
+      
+      .item:hover {
+        background-color:#ce6fa2;
+      } 
+         
+      .item img {
+        max-height:100px;
+        max-width:100px;
+        min-height:48px;
+      }
+   
+      .flex {
+        flex-grow:1;
+      }
+   
+      .flex-none {
+        flex-grow:0;
+      }
+   
+      .scroll {
+        overflow:auto;
+      }
+      
+      #gallery {
+        border:solid 1px gray;
+      }
+      
+      #media {
+        
+      }
+      
+      trix-toolbar {
+        background-color:#fff;
+      }
+      
+      .field {
+        vertical-align:top;
+      }
+      
+      .modal {
+        position:fixed;
+        top:calc(50vh-300px);
+        left:calc(50vw-300px);
+        background-color:cecece;
+      }
+      
+      #posts {
+        align-items:center;
+      }
+      
+      .hidden {
+        display:none !important;
+      }
+      trix-editor {
+        background-color:white;
+        overflow:auto;
+      }
+      
+      #nav {
+        align-items:center;
+      }
+      .action-list-item {
+        border:solid 1px black;
+        background-color:whitesmoke;
+        height:3.5em;
+        display: flex;
+        width:80%;
+        font-family:cursive;
+        align-items: center;
+        margin:5px;
+        min-height:3em;
+        border-radius:4px;
+        justify-content: center }   
+        
+        .post-item {
+
+        }     
+      
+
+.icon {
+  background-size:4em 4em;
+  width:4em;
+  height:4em;
+  margin:2px;
+}
+
+#add {
+  background-image:url(/images/add.svg);
+}   
+
+#delete {
+  background-image:url(/images/remove.svg);
+}   
+
+#select {
+  background-image:url(/images/publish.svg);
+}   
+
+#home {
+  background-image:url(/images/home.svg);
+}    
+
+.upload {
+    position: relative;
+    overflow: hidden;
+}
+
+.upload div {
+  background-image:url(/images/add.svg);
+}
+
+.upload input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#back {
+  background-image:url(/images/back.svg);
+}    
+
+#view {
+  background-image:url(/images/view.svg);
+  margin-right:20px;
+  margin-left:20px;
+}  
+
+#apply {
+  background-image:url(/images/publish.svg);
+}  
+
+.active-item {
+  border:dashed 5px gray;
+  background-color:#cd4a22;
+}
+
+
+.hbar-item {
+  display:inline-block;
+}
+input[type=text] {
+  min-height:3em;
+}
+.button_group button {
+  min-width: 3em !important;
+  min-height:3em;
+  float:none !important;}
+ .button_group {
+
+ }
+.button_row {
+ 
+   display:block !important;
+ } 
+ 
+ .row {
+   display:flex;
+   width:100%;
+   flex-direction:row;
+ }
+ 
+ blockquote {
+    border-left: solid 4px blue;
+    padding-left: 5px;
+}
+
+code {
+    border: solid 1px #cecece;
+    padding: 2 2 2 2;
+    background-color: bisque;
+}
+
+.modal {
+  position :fixed;
+  top:40vh;
+  left:17%;
+  width:66%;
+}
+
+#image-modal {
+ border:solid 1px green;
+ background-color:skyblue;
+}
+
+.field {
+  min-height:48px;
+  height:48px;
+}
+#from-gallery {
+  max-height:48px;
+  min-height:48px;
+  width:48px;
+}
+
+#post-bar {
+  margin:2;
+}
+
+.hbar-item {
+  max-height:3em;
+}
+
+
+.hflex {
+  flex-grow:1;
+  width:1px;
+}
+
+#menu {
+  background-color: buttonface;
+}
+
